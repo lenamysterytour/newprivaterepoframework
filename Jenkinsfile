@@ -3,7 +3,7 @@ agent any
 stages {
 stage("build"){
 steps{
-sh "mvn test"}}
+sh 'mvn test'}}
 stage("test") {
 steps 
 {echo 'testing the appz'
